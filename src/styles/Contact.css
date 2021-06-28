@@ -1,0 +1,14 @@
+@keyframes slideright {
+        from {margin-right: 100%}
+        to {margin-right: 0%}
+    }
+    .contactpage {
+        background-image: radial-gradient(
+            farthest-side at bottom right, 
+            rgb(131, 113, 247), 
+            rgb(243, 232, 232),
+            rgb(223, 161, 238));
+        animation-name: slideright;
+        animation-duration: 1s;
+        padding: 70px 0 70px 20px;
+    }

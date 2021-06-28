@@ -1,0 +1,41 @@
+@keyframes slideright {
+        from {margin-right: 100%}
+        to {margin-right: 0%}
+    }
+    .homepage {
+        background-image: radial-gradient(
+            farthest-side at right bottom, 
+            rgb(236, 167, 236), 
+            peachpuff,  
+            rgb(163, 242, 245));
+        animation-name: slideright;
+        animation-duration: 1s;
+        padding: 70px 30px 70px 20px;
+    }
+    
+    .home-intro {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .to-projects {
+        display: block;
+        width: max-content;
+        text-decoration: none;
+        color: black;
+        background-image: linear-gradient(to right, rgb(128, 0, 128), rgb(0, 247, 255));
+        border-radius: 20px;
+        padding: 5px;
+        margin: 20px auto 20px 0;
+    }
+    
+    .to-about {
+        display: block;
+        width: max-content;
+        text-decoration: none;
+        color: black;
+        background-image: linear-gradient(to right, rgb(128, 0, 128), rgb(0, 247, 255));
+        border-radius: 20px;
+        padding: 5px;
+        margin: 20px auto 20px 0;
+    }

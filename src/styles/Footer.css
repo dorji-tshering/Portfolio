@@ -1,0 +1,12 @@
+.footer {
+        font-family: monospace;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        user-select: none;
+        text-align: center;
+    }
+    
+    .c-icon {
+        position: relative;
+        top: 0.16em;
+    }
