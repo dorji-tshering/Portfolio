@@ -5,7 +5,7 @@ import RouteWithSubRoutes from './router/RouteWithSubRoutes';
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<Header/>
 			<Switch>
 				{Routes.map((route, i) => 
