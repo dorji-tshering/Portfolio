@@ -1,12 +1,40 @@
 .footer {
-        font-family: monospace;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        user-select: none;
-        text-align: center;
-    }
-    
-    .c-icon {
-        position: relative;
-        top: 0.16em;
-    }
+    font-family: monospace;
+    user-select: none;
+    text-align: center;
+    background-color: rgb(32, 31, 31);
+    padding: 10px;
+    border-top: 5px solid rgb(252, 95, 231);
+}
+
+.copyright {
+    color: white;
+}
+
+.c-icon {
+    position: relative;
+    top: 0.16em;
+}
+
+/* social links */
+.social-link {
+    display: inline-block;
+    margin: 20px;
+    font-size: 0.7rem;
+    user-select: none;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid rgb(6, 88, 121);
+}
+
+.social-link:hover {
+    background-color: grey;
+}
+
+.social-icon {
+    color: rgb(229, 250, 43);
+}
+
