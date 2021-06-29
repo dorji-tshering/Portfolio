@@ -198,7 +198,7 @@ nav {
             height: 1.5em;
         }
         .dorji-tshering {
-            font-size: 1.7rem;
+            font-size: 1.9rem;
         }
         .link {
             margin: 20px;
@@ -220,6 +220,11 @@ nav {
         .navbar {
             padding: 10px;
         }
+
+        .dorji-tshering {
+            font-size: 1.7rem;
+        }
+
         .links {
             padding: 15px 0 15px 0;
         }
@@ -252,11 +257,11 @@ nav {
             margin: 10px;
         }
         .dorji-tshering {
-            font-size: 0.7rem;
+            font-size: 1.2rem;
         }
         .main-menu {
-            width: 0.9em;
-            height: 0.9em;
+            width: 1.2rem;
+            height: 1.2rem;
         }
         .social-icon {
             width: 1.3em;
@@ -279,11 +284,11 @@ nav {
             padding: 6px;
         }
         .dorji-tshering {
-            font-size: 0.55rem;
+            font-size: 0.8rem;
         }
         .main-menu {
-            width: 0.6em;
-            height: 0.6em;
+            width: 0.9rem;
+            height: 0.9rem;
         }
         .social-icon {
             width: 0.8em;
