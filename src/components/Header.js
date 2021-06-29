@@ -7,6 +7,7 @@ import { GiSkills } from 'react-icons/gi';
 import { FaFacebookF }  from 'react-icons/fa';
 import { GrTwitter, GrGithub, GrLinkedinOption } from 'react-icons/gr';
 import { MdPersonPin, MdPermPhoneMsg } from 'react-icons/md';
+import { IoCloseSharp } from 'react-icons/io5';
 import { NavLink, Link } from 'react-router-dom';
 import { SiPolymerproject } from 'react-icons/si';
 const ClickOutHandler = require('react-onclickout');
@@ -40,7 +41,9 @@ const Header = () => {
                     <a href="https://github.com/dorji-tshering" 
                         className="social-link"><GrGithub className="social-icon github" size={14}/></a>
                 </section>
+                { showLink ? <IoCloseSharp onClick={()=> setShowLink(!showLink)} className="main-menu close-icon"/> :                
                 <FcMenu onClick={()=> setShowLink(!showLink)} className="main-menu" />         
+            }
             </section>
 
             {showLink ? <section className="links">
