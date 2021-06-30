@@ -4,11 +4,6 @@
     }
     
     .skillspage {
-        background-image: radial-gradient(
-            farthest-side at bottom right,
-          rgb(0, 225, 255),
-          lightblue,
-          orchid);
         animation-name: slideright;
         animation-duration: 1s;
         padding: 70px 0 70px 20px;

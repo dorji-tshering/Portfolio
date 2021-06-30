@@ -3,11 +3,6 @@
         to {margin-right: 0%}
     }
     .aboutpage {
-        background-image: radial-gradient(
-            farthest-side at bottom right,         
-            mediumaquamarine, 
-            paleturquoise,
-            plum);
         animation-name: slideright;
         animation-duration: 1s;
         padding: 15px;

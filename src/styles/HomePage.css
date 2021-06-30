@@ -3,11 +3,6 @@
         to {margin-right: 0%}
     }
     .homepage {
-        background-image: radial-gradient(
-            farthest-side at right bottom, 
-            rgb(236, 167, 236), 
-            peachpuff,  
-            rgb(163, 242, 245));
         animation-name: slideright;
         animation-duration: 1s;
         padding: 15px;

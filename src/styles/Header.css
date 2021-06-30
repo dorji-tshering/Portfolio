@@ -31,7 +31,6 @@
     text-align: center;
     user-select: none; 
     font-size: 0.9rem;
-    font-family: monospace;
     animation-name: slidedown;
     animation-duration: 0.5s;
     z-index: 1;
@@ -43,7 +42,7 @@
     user-select: none;
     position: relative;
     font-size: 1.2rem;
-    color: white;
+    color: rgb(219, 215, 215);
 }
 
 .dorji-tshering {
