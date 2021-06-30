@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer';
 import '../styles/AboutPage.css';
 import dorji from '../assets/images/kasol.jpg';
 const AboutPage = () => {
@@ -21,7 +20,6 @@ const AboutPage = () => {
                 <br/>
                 <p></p>
             </section>
-            <Footer/>
         </>
     )
 }

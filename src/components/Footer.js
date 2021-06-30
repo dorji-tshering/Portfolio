@@ -1,9 +1,7 @@
-import React from 'react'
 import '../styles/Footer.css';
 import { MdCopyright } from 'react-icons/md';
 import { FaFacebookF }  from 'react-icons/fa';
 import { GrTwitter, GrGithub, GrLinkedinOption } from 'react-icons/gr';
-
 
 const Footer = () => {
     return (

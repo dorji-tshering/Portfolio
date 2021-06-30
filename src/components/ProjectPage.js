@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer';
 import '../styles/ProjectPage.css';
 
 const ProjectPage = () => {
@@ -17,7 +16,6 @@ const ProjectPage = () => {
                 <p>Projects</p>
                 <p>Projects</p>
             </section>
-            <Footer/>
         </>
     )
 }

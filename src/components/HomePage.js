@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/HomePage.css';
-import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
 const HomePage = () => {
@@ -26,7 +25,6 @@ const HomePage = () => {
                 to that curiousity is unlimited. I am always and deeply moved by beautiful codes.</p>
                 <Link to="/about" className="to-about">read more about me...</Link>
             </section>
-            <Footer/>
         </>
     )
 }

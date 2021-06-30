@@ -8,6 +8,9 @@ import { MdPersonPin, MdPermPhoneMsg } from 'react-icons/md';
 import { IoCloseSharp } from 'react-icons/io5';
 import { NavLink, Link } from 'react-router-dom';
 import { SiPolymerproject } from 'react-icons/si';
+import Font from 'react-font';
+import { SiPagekit } from 'react-icons/si';
+
 const ClickOutHandler = require('react-onclickout');
 
 const Header = () => {
@@ -27,26 +30,50 @@ const Header = () => {
         <ClickOutHandler onClickOut={() => onClickOut()}>
             <nav>
             <section className="navbar">
-                <Link to="/" className="dorji-tshering"><span className="dorji">D</span>|
-                <span className="tshering">T</span></Link>
-                
-                { showLink ? <IoCloseSharp onClick={()=> setShowLink(!showLink)} className="main-menu close-icon"/> :                
-                <FcMenu onClick={()=> setShowLink(!showLink)} className="main-menu" />         
+                <Font family="Monoton">
+                    <Link to="/" className="dorji-tshering" onClick={() => resetLinks()}>
+                        <span>D</span>
+                        <span>O</span>
+                        <span>R</span>
+                        <span>J</span>
+                        <span>I</span>
+                        -
+                        <span>T</span>
+                        <span>S</span>
+                        <span>H</span>
+                        <span>E</span>
+                        <span>R</span>
+                        <span>I</span>
+                        <span>N</span>
+                        <span>G</span>
+                    </Link>
+                </Font>
+                { showLink ? <IoCloseSharp onClick={()=> setShowLink(!showLink)} className="menu-icon close-icon"/> :                
+                <FcMenu onClick={()=> setShowLink(!showLink)} className="menu-icon" />         
             }
             </section>
 
-            {showLink ? <section className="links">
-            <NavLink to="/" exact onClick={() => resetLinks()} className="link home" 
-            activeClassName="active">home <RiHomeHeartFill className="link-icon" size={10}/></NavLink>
-            <NavLink to="/projects" onClick={() => resetLinks()} className="link projects" 
-            activeClassName="active">projects <SiPolymerproject className="link-icon" size={10}/></NavLink>
-            <NavLink to="/skill" onClick={() => resetLinks()} className="link skills" 
-            activeClassName="active">skills <GiSkills className="link-icon" size={10}/></NavLink>
-            <NavLink to="/about" onClick={() => resetLinks()} className="link about" 
-            activeClassName="active">about <MdPersonPin className="link-icon" size={10}/></NavLink>
-            <NavLink to="/contact" onClick={() => resetLinks()} className="link contact" 
-            activeClassName="active">contact <MdPermPhoneMsg className="link-icon" size={10}/></NavLink>
-            </section> : ''}
+            {showLink ? 
+                <section className="links">
+                    <NavLink to="/" exact onClick={() => resetLinks()} className="link home" 
+                        activeClassName="active">home <RiHomeHeartFill className="link-icon" size={10}/>
+                    </NavLink>
+                    <NavLink to="/projects" onClick={() => resetLinks()} className="link projects" 
+                        activeClassName="active">projects <SiPolymerproject className="link-icon" size={10}/>
+                    </NavLink>
+                    <NavLink to="/skill" onClick={() => resetLinks()} className="link skills" 
+                        activeClassName="active">skills <GiSkills className="link-icon" size={10}/>
+                    </NavLink>
+                    <NavLink to="/about" onClick={() => resetLinks()} className="link about" 
+                        activeClassName="active">about <MdPersonPin className="link-icon" size={10}/>
+                    </NavLink>
+                    <NavLink to="/contact" onClick={() => resetLinks()} className="link contact" 
+                        activeClassName="active">contact <MdPermPhoneMsg className="link-icon" size={10}/>
+                    </NavLink>
+                    <NavLink to="/curriculum-vitae" onClick={() => resetLinks()} className="link resume"
+                        activeClassName="active">resume <SiPagekit className="link-icon" size={10} />                       
+                    </NavLink>
+                </section> : ''}
             </nav>
         </ClickOutHandler>
     );

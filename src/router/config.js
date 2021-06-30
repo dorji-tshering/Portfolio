@@ -2,6 +2,7 @@ import AboutPage from "../components/AboutPage";
 import Contact from "../components/Contact";
 import HomePage from "../components/HomePage";
 import ProjectPage from "../components/ProjectPage";
+import Resume from "../components/Resume";
 import Skill from "../components/Skill";
 
 export const Routes = [
@@ -32,6 +33,12 @@ export const Routes = [
         {
                 path: "/projects",
                 component: ProjectPage,
+                private: false,
+                exact: true,
+        },
+        {
+                path: "/curriculum-vitae",
+                component: Resume,
                 private: false,
                 exact: true,
         }

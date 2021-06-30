@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer';
 import '../styles/Contact.css';
 
 const Contact = () => {
@@ -17,7 +16,6 @@ const Contact = () => {
                 <p>Contacts</p>
                 <p>Contacts</p>
             </section>
-            <Footer/>
         </>
     )
 }

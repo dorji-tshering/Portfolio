@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer';
 import '../styles/Skill.css';
 
 const Skill = () => {
@@ -15,9 +14,7 @@ const Skill = () => {
             <p>Resume Page</p>
             <p>Resume Page</p>
             <p>Resume Page</p>
-
             </section>
-            <Footer/>
         </>
     )
 }
