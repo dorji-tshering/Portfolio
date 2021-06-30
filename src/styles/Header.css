@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
     position: sticky;
     align-items: center;
     z-index: 2;
@@ -43,6 +43,7 @@
     user-select: none;
     position: relative;
     font-size: 1.2rem;
+    color: white;
 }
 
 .dorji-tshering {
@@ -50,7 +51,7 @@
     flex: 1;
     text-decoration: none;
     user-select: none;
-    color: rgb(196, 193, 193);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
 }
 
@@ -60,42 +61,36 @@
 
 /* navigation links */
 .home {
-    color: teal;
     animation-name: linkappearance;
     animation-duration: 2s;
 }
 .home:hover {font-weight: bolder;}
 
 .projects {
-    color: fuchsia;
     animation-name: linkappearance;
     animation-duration: 3s;
 }
 .projects:hover {font-weight: bolder}
 
 .about {
-    color: rgb(80, 29, 221);
     animation-name: linkappearance;
     animation-duration: 4s;
 }
 .about:hover {font-weight: bolder}
 
 .skills {
-    color: tomato;
     animation-name: linkappearance;
     animation-duration: 5s;
 }
 .skills:hover {font-weight: bolder}
 
 .contact {
-    color: rgb(238, 8, 8);
     animation-name: linkappearance;
     animation-duration: 6s;
 }
 .contact:hover {font-weight: bolder}
 
 .resume {
-    color: yellow;
     animation-name: linkappearance;
     animation-duration: 7s;
 }
