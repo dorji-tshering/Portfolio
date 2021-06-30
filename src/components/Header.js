@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import '../styles/Header.css';
-import { FcMenu } from 'react-icons/fc';
+import { GiHamburgerMenu } from 'react-icons/gi';
 import { RiHomeHeartFill } from 'react-icons/ri';
 import { GiSkills } from 'react-icons/gi';
 import { MdPersonPin, MdPermPhoneMsg } from 'react-icons/md';
-import { IoCloseSharp } from 'react-icons/io5';
+import { AiOutlineClose } from 'react-icons/ai';
 import { NavLink, Link } from 'react-router-dom';
 import { SiPolymerproject } from 'react-icons/si';
 import Font from 'react-font';
@@ -30,7 +30,7 @@ const Header = () => {
         <ClickOutHandler onClickOut={() => onClickOut()}>
             <nav>
             <section className="navbar">
-                <Font family="Monoton">
+                <Font family="Delius Swash Caps">
                     <Link to="/" className="dorji-tshering" onClick={() => resetLinks()}>
                         <span>D</span>
                         <span>O</span>
@@ -48,8 +48,8 @@ const Header = () => {
                         <span>G</span>
                     </Link>
                 </Font>
-                { showLink ? <IoCloseSharp onClick={()=> setShowLink(!showLink)} className="menu-icon close-icon"/> :                
-                <FcMenu onClick={()=> setShowLink(!showLink)} className="menu-icon" />         
+                { showLink ? <AiOutlineClose onClick={()=> setShowLink(!showLink)} className="menu-icon close-icon"/> :                
+                <GiHamburgerMenu onClick={()=> setShowLink(!showLink)} className="menu-icon open-icon"/>         
             }
             </section>
 
