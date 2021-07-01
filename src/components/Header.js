@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/Header.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -10,10 +10,15 @@ const ClickOutHandler = require('react-onclickout');
 
 const Header = ({ setActive, active }) => {
     const [showLink, setShowLink] = useState(!active);
+    
+    useEffect(() => {
+        setShowLink(!active);
+    }, [active]);
+
 
     const onClickOut = () => {
         if(showLink){
-            setShowLink(!showLink);
+            setShowLink(false);
             setActive(true);
         }
     }
