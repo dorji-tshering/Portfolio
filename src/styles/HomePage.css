@@ -1,36 +1,30 @@
-@keyframes slideright {
-        from {margin-right: 100%}
-        to {margin-right: 0%}
-    }
-    .homepage {
-        animation-name: slideright;
-        animation-duration: 1s;
-        padding: 15px;
-    }
-    
-    .home-intro {
-        font-size: 2rem;
-        text-align: center;
-    }
-    
-    .to-projects {
-        display: block;
-        width: max-content;
-        text-decoration: none;
-        color: black;
-        background-image: linear-gradient(to right, rgb(128, 0, 128), rgb(0, 247, 255));
-        border-radius: 20px;
-        padding: 5px;
-        margin: 20px auto 20px 0;
-    }
-    
-    .to-about {
-        display: block;
-        width: max-content;
-        text-decoration: none;
-        color: black;
-        background-image: linear-gradient(to right, rgb(128, 0, 128), rgb(0, 247, 255));
-        border-radius: 20px;
-        padding: 5px;
-        margin: 20px auto 20px 0;
-    }
+.homepage {
+    padding: 15px;
+}
+
+.home-intro {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.to-projects {
+    display: block;
+    width: max-content;
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to right, rgb(128, 0, 128), rgb(0, 247, 255));
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px auto 20px 0;
+}
+
+.to-about {
+    display: block;
+    width: max-content;
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to right, rgb(128, 0, 128), rgb(0, 247, 255));
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px auto 20px 0;
+}

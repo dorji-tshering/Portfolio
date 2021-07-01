@@ -1,10 +1,3 @@
-@keyframes slideright {
-        from {margin-right: 100%}
-        to {margin-right: 0%}
-    }
-    
     .skillspage {
-        animation-name: slideright;
-        animation-duration: 1s;
         padding: 70px 0 70px 20px;
     }
