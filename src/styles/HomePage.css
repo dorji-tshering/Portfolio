@@ -11,20 +11,20 @@
     display: block;
     width: max-content;
     text-decoration: none;
-    color: black;
-    background-image: linear-gradient(to right, rgb(128, 0, 128), rgb(0, 247, 255));
-    border-radius: 20px;
-    padding: 5px;
+    color: white;
+    background-color: rgb(248, 7, 107);
+    border-radius: 30px;
+    padding: 20px;
     margin: 20px auto 20px 0;
 }
 
 .to-about {
     display: block;
     width: max-content;
+    color: white;
+    background-color: rgb(248, 7, 107);
     text-decoration: none;
-    color: black;
-    background-image: linear-gradient(to right, rgb(128, 0, 128), rgb(0, 247, 255));
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 30px;
+    padding: 20px;
     margin: 20px auto 20px 0;
 }

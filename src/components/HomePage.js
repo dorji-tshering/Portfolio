@@ -17,13 +17,13 @@ const HomePage = () => {
 
                 <h1>my projects</h1>
                 
-                <Link to="/projects" className="to-projects">see more of my projects...</Link>
+                <Link to="/projects" className="to-projects">see more</Link>
                 <br/><hr/><br/>
                 <h1>about me</h1>
                 <p>I have always been fascinated by codes and programs. I always end up thinking
                 what could I possibly achieve with these amazing tools at my hand and the answer
                 to that curiousity is unlimited. I am always and deeply moved by beautiful codes.</p>
-                <Link to="/about" className="to-about">read more about me...</Link>
+                <Link to="/about" className="to-about">read more</Link>
             </section>
         </>
     )

@@ -11,11 +11,12 @@ const ClickOutHandler = require('react-onclickout');
 const Header = ({ setActive, active }) => {
     const [showLink, setShowLink] = useState(!active);
     
+    // hide menu on page scroll
     useEffect(() => {
         setShowLink(!active);
     }, [active]);
 
-
+    // handle events when cliking outside the menu
     const onClickOut = () => {
         if(showLink){
             setShowLink(false);
@@ -23,6 +24,7 @@ const Header = ({ setActive, active }) => {
         }
     }
 
+    // reset the initial state without menu
     const resetLinks = () => {
         setShowLink(false);
         setActive(true);
